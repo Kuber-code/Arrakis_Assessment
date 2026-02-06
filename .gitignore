@@ -15,6 +15,7 @@ __pycache__/
 # Local / generated data & outputs (regenerowane przez skrypty)
 data/raw/address_verification.json
 data/processed/legacy
+data/legacy/
 
 # OS/editor noise
 .DS_Store
