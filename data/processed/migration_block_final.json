@@ -1,0 +1,31 @@
+{
+  "run_ts_utc": "2026-02-06T12:52:23.822390+00:00",
+  "rule": {
+    "priority": [
+      "largest_burn_confirm_window (amount1_WETH from migration_confirm_burns.csv)",
+      "largest_sync_drop_candidate (delta_reserve1_weth from migration_candidate.json)"
+    ],
+    "notes": "This script selects a conservative migration block for splitting pre/post analysis. Primary evidence is Uniswap V2 Burn events near the candidate block."
+  },
+  "inputs": {
+    "migration_candidate_json": "data\\processed\\migration_candidate.json",
+    "migration_confirm_burns_csv": "data\\processed\\migration_confirm_burns.csv"
+  },
+  "selected": {
+    "selected_by": "largest_burn_confirm_window",
+    "migration_block_final": 23982726,
+    "migration_time_utc": "2025-12-10T13:52:23+00:00",
+    "details": {
+      "burns_csv": "data\\processed\\migration_confirm_burns.csv",
+      "burns_rows": 2,
+      "top_burn_block": 23982726,
+      "top_burn_amount1_weth": 70.32494746668148
+    }
+  },
+  "supporting": {
+    "candidate_block": 23982726,
+    "candidate_time_utc": "2025-12-10 13:52:23+00:00",
+    "candidate_delta_reserve1_weth": -70.3249474666815
+  },
+  "next_step": "Use migration_block_final to define pre-migration UniV2 window and post-migration UniV4 window for execution-quality (slippage) and vault-performance analyses."
+}

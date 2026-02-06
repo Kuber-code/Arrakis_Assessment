@@ -8,12 +8,13 @@ venv/
 
 # Caches
 __pycache__/
+*.pyo
 *.pyc
 .ipynb_checkpoints/
 
 # Local / generated data & outputs (regenerowane przez skrypty)
-data/raw/
-data/processed/
+data/raw/address_verification.json
+data/processed/legacy
 
 # OS/editor noise
 .DS_Store
