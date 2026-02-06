@@ -97,3 +97,4 @@ Even with higher token counts, total USD value decreased, which is consistent wi
 - Vault underlying mapping uses a ratio-consistency method and was stable across 695/695 samples (`u0_ixs_u1_eth`), but the vault does not expose token getters for the two outputs, so this is documented explicitly.
 - Full-range LP baseline is simplified (no fee accrual) and should be treated as a conservative comparator.
 
+Execution quality plots show slippage over time for $1k/$5k/$10k/$50k and highlight the migration boundary (UniV2 → UniV4)

@@ -45,3 +45,5 @@ A pragmatic path is to migrate the remainder in tranches, and monitor:
 - whether spot spends extended time near/outside active ranges,
 - whether large IXS→ETH trades are common in your flow,
 - and how p90 behaves during market stress.
+
+Execution quality plots show slippage over time for $1k/$5k/$10k/$50k and highlight the migration boundary (UniV2 → UniV4)
