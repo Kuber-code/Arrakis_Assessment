@@ -47,8 +47,13 @@ VAULT_BLOCK_STRIDE=600
 VAULT_SPOT_TINY_C0=0.000001
 
 ## Data sources
-All on-chain state, quotes, and prices are fetched directly from Ethereum mainnet via JSON-RPC (tested with Alchemy through `RPC_URL`). 
+
+All on-chain state, quotes, and prices are fetched directly from Ethereum mainnet via JSON-RPC (tested with Alchemy through `RPC_URL`).
 No off-chain indexed datasets (e.g., The Graph) are required; all outputs are reproducible by rerunning the scripts.
+
+## Run order (end-to-end - one command Steps 0-5 from powershell on Windows)
+
+powershell -ExecutionPolicy Bypass -File .\run_all.ps1
 
 ## Run order (end-to-end)
 
