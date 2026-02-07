@@ -1,25 +1,26 @@
 {
-  "block_number": 24398373,
-  "module": "0xC56d93dD1D48f93814901cF685C3cD0eAc0E849D",
+  "block_number": 24401553,
   "vault": "0x90bdE935Ce7FEB6636aFD5A1A0340af45EEAe600",
-  "quoter": "0x52F0E24D1c21C8A0cB1e5a5dD6198556BD9E1203",
+  "module": "0xC56d93dD1D48f93814901cF685C3cD0eAc0E849D",
   "poolKey": {
     "currency0": "0x0000000000000000000000000000000000000000",
     "currency1": "0x73d7c860998CA3c01Ce8c808F5577d94d545d1b4",
+    "fee_uint24": 7000,
+    "tick_spacing": 50,
+    "hooks": "0x0000000000000000000000000000000000000000",
     "symbol0": "ETH",
     "symbol1": "IXS",
     "decimals0": 18,
-    "decimals1": 18,
-    "fee_uint24": 7000,
-    "fee_rate": 0.007,
-    "tickSpacing": 50,
-    "hooks": "0x0000000000000000000000000000000000000000"
+    "decimals1": 18
   },
-  "spot_estimate": {
-    "token1_per_token0": "36482.0261079784894259818731117824773413897280966767371601208",
-    "token1_per_token0_raw_units": "36482.0261079784894259818731117824773413897280966767371601208",
-    "tick_estimate": 105051,
-    "note": "Tick estimated from micro-quote spot price; used only as a visual marker."
-  },
-  "note": "Liquidity 'distribution' here is shown as range coverage count across ticks (proxy), because per-tick liquidity amounts are not exposed via the minimal module ABI used."
+  "ranges": [
+    {
+      "tickLower": 90250,
+      "tickUpper": 119300
+    },
+    {
+      "tickLower": 93850,
+      "tickUpper": 104750
+    }
+  ]
 }

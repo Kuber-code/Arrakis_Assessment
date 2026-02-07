@@ -28,9 +28,9 @@ def main():
     raw = root / "data" / "raw"
     processed.mkdir(parents=True, exist_ok=True)
 
-    cand_path = processed / "migration_candidate.json"
+    cand_path = raw / "migration_candidate.json"
     burns_path = processed / "migration_confirm_burns.csv"
-    out_path = processed / "migration_block_final.json"
+    out_path = raw / "migration_block_final.json"
 
     cand = read_json(cand_path)
     if not cand:

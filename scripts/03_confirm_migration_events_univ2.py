@@ -77,11 +77,12 @@ def main():
 
     root = Path(__file__).resolve().parents[1]
     out_dir = root / "data" / "processed"
+    out_dir_json = root / "data" / "raw"
     out_dir.mkdir(parents=True, exist_ok=True)
 
     pair = Web3.to_checksum_address("0xC09bf2B1Bc8725903C509e8CAeef9190857215A8")
 
-    migration_json = out_dir / "migration_candidate.json"
+    migration_json = out_dir_json / "migration_candidate.json"
     meta_json = root / "data" / "raw" / "univ2_pair_metadata.json"
 
     mig = json.loads(migration_json.read_text(encoding="utf-8"))
@@ -183,11 +184,11 @@ def main():
         },
     }
 
-    (out_dir / "migration_confirm_summary.json").write_text(
+    (out_dir_json / "migration_confirm_summary.json").write_text(
         json.dumps(summary, indent=2),
         encoding="utf-8",
     )
-    print(f"Wrote {out_dir / 'migration_confirm_summary.json'}")
+    print(f"Wrote {out_dir_json / 'migration_confirm_summary.json'}")
 
     if not burn_df.empty:
         print("\nTop 10 burns by token1 (usually WETH):")

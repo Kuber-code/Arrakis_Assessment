@@ -55,7 +55,7 @@ def main():
     root = Path(__file__).resolve().parents[1]
     raw_meta = root / "data" / "raw" / "univ2_pair_metadata.json"
     out_csv = root / "data" / "processed" / "univ2_sync_timeseries.csv"
-    out_json = root / "data" / "processed" / "migration_candidate.json"
+    out_json = root / "data" / "raw" / "migration_candidate.json"
     out_csv.parent.mkdir(parents=True, exist_ok=True)
 
     meta = json.loads(raw_meta.read_text())

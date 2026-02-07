@@ -1,0 +1,29 @@
+{
+  "run_ts_utc": "2026-02-07T00:52:35.128924+00:00",
+  "pair": "0xC09bf2B1Bc8725903C509e8CAeef9190857215A8",
+  "candidate_block": 23982726,
+  "candidate_datetime_utc": "2025-12-10 13:52:23+00:00",
+  "delta_reserve1_weth": -70.3249474666815,
+  "window_blocks": 2000,
+  "from_block": 23980726,
+  "to_block": 23984726,
+  "event_counts": {
+    "Mint": 0,
+    "Burn": 2,
+    "Swap": 83,
+    "Sync": 85
+  },
+  "token0": {
+    "symbol": "IXS",
+    "decimals": 18
+  },
+  "token1": {
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  "interpretation_hint": "Large Burn(s) near candidate block supports liquidity removal/migration; if only Swaps dominate, it may be a large trade rather than migration.",
+  "files_written": {
+    "burns_csv": "C:\\Users\\lichu\\OneDrive\\Pulpit\\ARR3\\data\\processed\\migration_confirm_burns.csv",
+    "swaps_csv": "C:\\Users\\lichu\\OneDrive\\Pulpit\\ARR3\\data\\processed\\migration_confirm_swaps.csv"
+  }
+}

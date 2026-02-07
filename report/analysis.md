@@ -98,3 +98,8 @@ Even with higher token counts, total USD value decreased, which is consistent wi
 - Full-range LP baseline is simplified (no fee accrual) and should be treated as a conservative comparator.
 
 Execution quality plots show slippage over time for $1k/$5k/$10k/$50k and highlight the migration boundary (UniV2 → UniV4)
+
+## Data provenance (how numbers are sourced)
+All data is pulled directly from Ethereum mainnet via JSON-RPC (run using an Alchemy endpoint set in `RPC_URL`).  
+Execution-quality quotes use on-chain pool state (UniV2 math / UniV4 Quoter where applicable).  
+Vault accounting is sourced from the vault contract state (`totalUnderlying()`), and prices are sourced on-chain (UniV4 micro-quotes for IXS/ETH and UniV3 WETH/USDC `slot0` for ETH/USD).

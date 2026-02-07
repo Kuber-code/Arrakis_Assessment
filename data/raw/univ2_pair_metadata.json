@@ -1,19 +1,20 @@
 {
-  "run_ts_utc": "2026-02-06T11:12:41.358225+00:00",
+  "run_ts_utc": "2026-02-07T00:46:20.637846+00:00",
   "chain_id": 1,
-  "latest_block": 24397407,
+  "latest_block": 24401452,
+  "block_number_used": 24401452,
   "pair": "0xC09bf2B1Bc8725903C509e8CAeef9190857215A8",
   "token0": {
     "address": "0x73d7c860998CA3c01Ce8c808F5577d94d545d1b4",
     "symbol": "IXS",
     "decimals": 18,
-    "reserve_raw": "1930105349833767921823750"
+    "reserve_raw": "1808141993346909955170769"
   },
   "token1": {
     "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
     "symbol": "WETH",
     "decimals": 18,
-    "reserve_raw": "52725132622104587716"
+    "reserve_raw": "56352101126154358013"
   },
-  "blockTimestampLast_raw": "1770375023"
+  "blockTimestampLast_raw": "1770425063"
 }

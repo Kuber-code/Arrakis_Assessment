@@ -1,0 +1,10 @@
+{
+  "run_ts_utc": "2026-02-07T00:52:31.958121+00:00",
+  "pair": "0xC09bf2B1Bc8725903C509e8CAeef9190857215A8",
+  "from_block": 23751452,
+  "to_block": 24401452,
+  "candidate_migration_block": 23982726,
+  "candidate_datetime_utc": "2025-12-10 13:52:23+00:00",
+  "delta_reserve1_weth": -70.3249474666815,
+  "note": "Candidate chosen as largest negative change in token1 (WETH) reserves between consecutive Sync events."
+}

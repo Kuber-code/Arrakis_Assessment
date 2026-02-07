@@ -1,0 +1,86 @@
+{
+  "block_number": 24401554,
+  "vault": "0x90bdE935Ce7FEB6636aFD5A1A0340af45EEAe600",
+  "results": {
+    "vault": [
+      {
+        "signature": "name()",
+        "kind": "raw",
+        "status": "revert"
+      },
+      {
+        "signature": "symbol()",
+        "kind": "raw",
+        "status": "revert"
+      },
+      {
+        "signature": "decimals()",
+        "kind": "uint256",
+        "status": "revert"
+      },
+      {
+        "signature": "totalSupply()",
+        "kind": "uint256",
+        "status": "revert"
+      },
+      {
+        "signature": "owner()",
+        "kind": "address",
+        "status": "ok",
+        "value": "0xe35AA548804D8973af16bC24d1083D454E81ba7B"
+      },
+      {
+        "signature": "asset()",
+        "kind": "address",
+        "status": "revert"
+      },
+      {
+        "signature": "totalAssets()",
+        "kind": "uint256",
+        "status": "revert"
+      },
+      {
+        "signature": "module()",
+        "kind": "address",
+        "status": "ok",
+        "value": "0xC56d93dD1D48f93814901cF685C3cD0eAc0E849D"
+      },
+      {
+        "signature": "activeModule()",
+        "kind": "address",
+        "status": "revert"
+      },
+      {
+        "signature": "getModule()",
+        "kind": "address",
+        "status": "revert"
+      },
+      {
+        "signature": "strategy()",
+        "kind": "address",
+        "status": "revert"
+      },
+      {
+        "signature": "poolKey()",
+        "kind": "raw",
+        "status": "revert"
+      },
+      {
+        "signature": "poolManager()",
+        "kind": "address",
+        "status": "revert"
+      },
+      {
+        "signature": "totalUnderlying()",
+        "kind": "raw",
+        "status": "ok",
+        "value_hex_prefix": "000000000000000000000000000000000000000000035e6e31ed18254be645270000000000000000000000000000000000000000000000057f4c7343a44c76a9"
+      },
+      {
+        "signature": "getRanges()",
+        "kind": "raw",
+        "status": "revert"
+      }
+    ]
+  }
+}

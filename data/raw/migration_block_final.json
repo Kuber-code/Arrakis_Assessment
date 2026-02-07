@@ -1,5 +1,5 @@
 {
-  "run_ts_utc": "2026-02-06T12:52:23.822390+00:00",
+  "run_ts_utc": "2026-02-07T00:52:36.639227+00:00",
   "rule": {
     "priority": [
       "largest_burn_confirm_window (amount1_WETH from migration_confirm_burns.csv)",
@@ -8,7 +8,7 @@
     "notes": "This script selects a conservative migration block for splitting pre/post analysis. Primary evidence is Uniswap V2 Burn events near the candidate block."
   },
   "inputs": {
-    "migration_candidate_json": "data\\processed\\migration_candidate.json",
+    "migration_candidate_json": "data\\raw\\migration_candidate.json",
     "migration_confirm_burns_csv": "data\\processed\\migration_confirm_burns.csv"
   },
   "selected": {
