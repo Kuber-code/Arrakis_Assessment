@@ -155,7 +155,7 @@ Outputs:
 
 ## Deliverables (what to read first)
 
-- report/client_summary.md (short plain-English outcome + recommendation)
+- report/client_summary.md (short plain-English outcome + recommendation) (available in 3 versions: normal, short or very-short)
 - report/analysis.md (methods + quantitative results + caveats)
 - data/processed/execution_quality_summary.csv
 - figures/ (PNG charts referenced by the report)
